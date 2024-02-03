@@ -7,6 +7,7 @@
 .container {
   width: 100%;
   min-height: 100vh;
+  height: 100%;
   background: linear-gradient(135deg, #cbf89a, #fc7a7a);
   padding: 10px;
 }
@@ -18,44 +19,49 @@ img {
   max-width: 540px;
   background-color: #efe2b695;
   margin: 100px auto 20px; /* horizontally center as left right auto */
-  padding: 40px 30px 70px;
+  padding: 40px 20px 70px;
   border-radius: 10px;
+  box-shadow: 10px 10px 4px rgba(186, 250, 186, 0.405);
 }
+
 .todo-app h2 {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  gap: 10px;
+  margin-right: 5px;
   color: #002765;
 }
 .row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background: #edeef0;
   border-radius: 30px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   margin-bottom: 25px;
+  position: relative;
+  min-width: auto;
 }
 input {
-  flex: 1;
+  /* flex: 1; */
   border: none;
   outline: none;
   background: transparent;
-  padding: 10px;
-  font-size: 18px;
+  padding: 8px;
+  font-size: 15px;
 }
 button {
   border: none;
   outline: none;
-  padding: 16px 40px;
+  padding: 14px 30px;
   background: #ffbb64;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
   border-radius: 40px;
   font-weight: 600;
 }
+
 button:active {
   scale: 0.8;
   transition: all linear 1s;
