@@ -37,13 +37,13 @@ img {
   justify-content: center;
   background: #edeef0;
   border-radius: 30px;
-  /* padding-left: 20px; */
+  padding-left: 20px;
   margin-bottom: 25px;
-  position: relative;
+  /* position: relative; */
   min-width: auto;
 }
 input {
-  /* flex: 1; */
+  flex: 1;
   border: none;
   outline: none;
   background: transparent;
