@@ -7,9 +7,8 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  height: 100%;
   background: linear-gradient(135deg, #cbf89a, #fc7a7a);
-  padding: 10px;
+  padding: 20px;
 }
 img {
   height: 50px;
@@ -19,7 +18,7 @@ img {
   max-width: 540px;
   background-color: #efe2b695;
   margin: 100px auto 20px; /* horizontally center as left right auto */
-  padding: 40px 20px 70px;
+  padding: 40px 30px 70px;
   border-radius: 10px;
   box-shadow: 10px 10px 4px rgba(186, 250, 186, 0.405);
 }
@@ -34,13 +33,12 @@ img {
 .row {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background: #edeef0;
   border-radius: 30px;
   padding-left: 20px;
   margin-bottom: 25px;
   /* position: relative; */
-  min-width: auto;
 }
 input {
   flex: 1;
@@ -53,7 +51,7 @@ input {
 button {
   border: none;
   outline: none;
-  padding: 14px 30px;
+  padding: 16px 30px;
   background: #ffbb64;
   color: #fff;
   font-size: 16px;
